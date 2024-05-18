@@ -1,4 +1,4 @@
-# Laravel 8 提供管線運算子的用戶態實作
+# Laravel 9 提供管線運算子的用戶態實作
 
 引入 sebastiaanluca 的 php-pipe-operator 套件來擴增提供管線運算子的用戶態實作，以達到接受一個值並對其執行一個或多個操作。
 
