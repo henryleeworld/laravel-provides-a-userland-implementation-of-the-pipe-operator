@@ -1,4 +1,4 @@
-# Laravel 10 提供管線運算子的用戶態實作
+# Laravel 11 提供管線運算子的用戶態實作
 
 引入 sebastiaanluca 的 php-pipe-operator 套件來擴增提供管線運算子的用戶態實作，以達到接受一個值並對其執行一個或多個操作。
 
@@ -22,5 +22,5 @@ $ php artisan key:generate
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/Gv55Etc.png)
+![](https://i.imgur.com/OmqCtFe.png)
 > 目標是對值的多種方法調用更易於讀寫
