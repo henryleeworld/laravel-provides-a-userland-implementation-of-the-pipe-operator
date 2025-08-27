@@ -1,4 +1,4 @@
-# Laravel 11 提供管線運算子的用戶態實作
+# Laravel 12 提供管線運算子的用戶態實作
 
 引入 sebastiaanluca 的 php-pipe-operator 套件來擴增提供管線運算子的用戶態實作，以達到接受一個值並對其執行一個或多個操作。
 
@@ -16,11 +16,15 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 在瀏覽器中輸入已定義的路由 URL 來訪問，例如：http://127.0.0.1:8000。
 - 你可以經由 `/url/parse/?url={網址}` 來進行網址子網域分析。
 
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/OmqCtFe.png)
+![](https://i.imgur.com/0z4vfE5.png)
 > 目標是對值的多種方法調用更易於讀寫
